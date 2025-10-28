@@ -1,0 +1,15 @@
+.svg-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.svg-card:hover {
+    outline: 2px solid #5bafd9;
+    outline-offset: -1px;
+    border-radius: 8px;
+
+    transform: scale(1.03);
+}
