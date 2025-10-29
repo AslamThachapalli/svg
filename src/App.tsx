@@ -27,10 +27,13 @@ function App() {
 
             <div className="svg-card-container">
                 {svgList.map((item, index) => (
-                    <SvgCard
-                        onClick={() => handleSvgCardClick(index)}
-                        svg={<item.svg />}
-                    />
+                    <div key={item.id} className={item.id}>
+                        <SvgCard
+                            onClick={() => handleSvgCardClick(index)}
+                            svg={<item.svg />}
+                            name={item.name}
+                        />
+                    </div>
                 ))}
             </div>
 

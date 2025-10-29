@@ -1,0 +1,19 @@
+:root {
+    --ginger-bread-color: #cd803d;
+}
+
+.head {
+    fill: var(--ginger-bread-color);
+}
+
+.limb {
+    stroke: var(--ginger-bread-color);
+    stroke-width: 30px;
+    stroke-linecap: round;
+}
+
+.mouth {
+    fill: none;
+    stroke-width: 2px;
+    stroke: white;
+}

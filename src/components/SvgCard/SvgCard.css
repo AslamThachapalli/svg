@@ -1,15 +1,32 @@
 .svg-card {
+    position: relative;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    background-color: var(--primary-white);
+    border-radius: 12px;
+
     cursor: pointer;
 }
-
 .svg-card:hover {
-    outline: 2px solid #5bafd9;
-    outline-offset: -1px;
-    border-radius: 8px;
+    outline: 2px solid var(--focus-color);
 
-    transform: scale(1.03);
+    .svg-card-name {
+        visibility: visible;
+    }
+}
+
+.svg-card-name {
+    position: absolute;
+    bottom: -24px;
+    visibility: hidden;
+
+    background-color: #e3d5ca;
+    padding: 2px 8px;
+    border-radius: 4px;
+
+    z-index: 2;
 }

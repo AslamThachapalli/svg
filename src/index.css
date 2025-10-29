@@ -1,4 +1,9 @@
 :root {
+    --primary-black: #212121;
+    --primary-white: #ffffff;
+    --background-color: #edede9;
+    --focus-color: #d5bdaf;
+
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
@@ -12,11 +17,18 @@
 body {
     margin: 0;
     min-height: 100vh;
+
+    background-color: var(--background-color);
 }
 
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 button {

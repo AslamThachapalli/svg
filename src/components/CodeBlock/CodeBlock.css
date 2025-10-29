@@ -9,8 +9,9 @@
     font-size: 14px;
     line-height: 1.4;
     height: 440px;
+    width: 475px;
 }
 
 code {
-    color: black;
+    color: var(--primary-black);
 }
