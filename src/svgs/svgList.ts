@@ -1,6 +1,9 @@
 import * as ChristmasOrnament from "./ChristmasOrnament";
 import * as ChristmasTree from "./ChristmasTree";
 import * as GingerBread from "./GingerBread";
+import * as Heart from "./Heart";
+import * as Arrow from "./Arrow";
+import * as WavyTree from "./WavyTree";
 
 type SvgList = {
     id: string;
@@ -31,5 +34,26 @@ export const svgList: SvgList[] = [
         svg: GingerBread.GingerBread,
         htmlSource: GingerBread.gingerBreadHtmlSource,
         cssSource: GingerBread.gingerBreadCssSource,
+    },
+    {
+        id: "heart",
+        name: "Heart",
+        svg: Heart.Heart,
+        htmlSource: Heart.heartHtmlSource,
+        cssSource: Heart.heartCssSource,
+    },
+    {
+        id: "arrow",
+        name: "Arrow",
+        svg: Arrow.Arrow,
+        htmlSource: Arrow.arrowHtmlSource,
+        cssSource: Arrow.arrowCssSource,
+    },
+    {
+        id: "wavy-tree",
+        name: "Wavy Tree",
+        svg: WavyTree.WavyTree,
+        htmlSource: WavyTree.wavyTreeHtmlSource,
+        cssSource: WavyTree.wavyTreeCssSource,
     },
 ];
