@@ -7,6 +7,9 @@ import * as WavyTree from "./WavyTree";
 import * as User from "./User";
 import * as LightBulb from "./LightBulb";
 import * as WindMill from "./WindMill";
+import * as Text from "./Text";
+import * as Nature from "./Nature";
+import * as Star from "./Star";
 
 type SvgList = {
     id: string;
@@ -60,11 +63,11 @@ export const svgList: SvgList[] = [
         cssSource: GingerBread.gingerBreadCssSource,
     },
     {
-        id: "user",
-        name: "User",
-        svg: User.User,
-        htmlSource: User.userHtmlSource,
-        cssSource: User.userCssSource,
+        id: "text",
+        name: "SVG Text",
+        svg: Text.Text,
+        htmlSource: Text.textHtmlSource,
+        cssSource: Text.textCssSource,
     },
     {
         id: "wind-mill",
@@ -79,5 +82,26 @@ export const svgList: SvgList[] = [
         svg: LightBulb.LightBulb,
         htmlSource: LightBulb.lightBulbHtmlSource,
         cssSource: LightBulb.lightBulbCssSource,
+    },
+    {
+        id: "user",
+        name: "User",
+        svg: User.User,
+        htmlSource: User.userHtmlSource,
+        cssSource: User.userCssSource,
+    },
+    {
+        id: "nature",
+        name: "Nature",
+        svg: Nature.Nature,
+        htmlSource: Nature.natureHtmlSource,
+        cssSource: Nature.natureCssSource,
+    },
+    {
+        id: "star",
+        name: "Star",
+        svg: Star.Star,
+        htmlSource: Star.starHtmlSource,
+        cssSource: Star.starCssSource,
     },
 ];

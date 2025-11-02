@@ -24,7 +24,6 @@ function App() {
     return (
         <div>
             <h1>SVGs</h1>
-
             <div className="svg-card-container">
                 {svgList.map((item, index) => (
                     <div key={item.id} className={item.id}>
