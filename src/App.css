@@ -38,7 +38,7 @@
     grid-column: 1/2;
     grid-row: 3/4;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .svg-card-container {
         grid-template-columns: repeat(2, 1fr);
     }

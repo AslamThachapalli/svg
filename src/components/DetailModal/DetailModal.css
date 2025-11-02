@@ -13,10 +13,10 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
-    visibility: hidden;
+    display: none;
 }
 .modal--open {
-    visibility: visible;
+    display: flex;
 }
 
 .modal-content {
@@ -87,4 +87,18 @@
 }
 .modal-code-block-content-item {
     padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .modal-svg-content {
+        display: none;
+    }
+    .modal-code-block {
+        flex: 1;
+    }
+
+    .modal-content {
+        width: 100vw;
+        border-radius: 0;
+    }
 }
