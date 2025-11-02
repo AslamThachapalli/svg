@@ -1,8 +1,14 @@
+/* 
+Cubic Bezier Curve is used to create the wavy shape of the tree.
+Q Control Points (x, y) End Points (x,y).
+The line will start at the start point and end at the end point, and the control points will be used to control the curve of the line.
+*/
 export function WavyTree() {
     return (
-        <svg width="200" height="400" viewBox="-100 -200 200 400">
-            <path
-                d="
+        <div style={{ height: "408px" }}>
+            <svg width="200" height="400" viewBox="-100 -200 200 400">
+                <path
+                    d="
                     M 0 -80
                     Q 5 -75 0 -70
                     Q -10 -65 0 -60
@@ -28,11 +34,12 @@ export function WavyTree() {
                     L -20 150
                     M 0 150 
                     L 20 150"
-                fill="none"
-                stroke="#2d6a54"
-                strokeWidth="5"
-            />
-        </svg>
+                    fill="none"
+                    stroke="#2d6a54"
+                    strokeWidth="5"
+                />
+            </svg>
+        </div>
     );
 }
 

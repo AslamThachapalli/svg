@@ -26,3 +26,11 @@
     grid-column: 5/6;
     grid-row: 1/3;
 }
+.wind-mill {
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.light-bulb {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}

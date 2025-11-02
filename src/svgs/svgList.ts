@@ -4,6 +4,9 @@ import * as GingerBread from "./GingerBread";
 import * as Heart from "./Heart";
 import * as Arrow from "./Arrow";
 import * as WavyTree from "./WavyTree";
+import * as User from "./User";
+import * as LightBulb from "./LightBulb";
+import * as WindMill from "./WindMill";
 
 type SvgList = {
     id: string;
@@ -29,13 +32,6 @@ export const svgList: SvgList[] = [
         cssSource: ChristmasTree.christmasTreeCssSource,
     },
     {
-        id: "ginger-bread",
-        name: "Ginger Bread",
-        svg: GingerBread.GingerBread,
-        htmlSource: GingerBread.gingerBreadHtmlSource,
-        cssSource: GingerBread.gingerBreadCssSource,
-    },
-    {
         id: "heart",
         name: "Heart",
         svg: Heart.Heart,
@@ -55,5 +51,33 @@ export const svgList: SvgList[] = [
         svg: WavyTree.WavyTree,
         htmlSource: WavyTree.wavyTreeHtmlSource,
         cssSource: WavyTree.wavyTreeCssSource,
+    },
+    {
+        id: "ginger-bread",
+        name: "Ginger Bread",
+        svg: GingerBread.GingerBread,
+        htmlSource: GingerBread.gingerBreadHtmlSource,
+        cssSource: GingerBread.gingerBreadCssSource,
+    },
+    {
+        id: "user",
+        name: "User",
+        svg: User.User,
+        htmlSource: User.userHtmlSource,
+        cssSource: User.userCssSource,
+    },
+    {
+        id: "wind-mill",
+        name: "Wind Mill",
+        svg: WindMill.WindMill,
+        htmlSource: WindMill.windMillHtmlSource,
+        cssSource: WindMill.windMillCssSource,
+    },
+    {
+        id: "light-bulb",
+        name: "Light Bulb",
+        svg: LightBulb.LightBulb,
+        htmlSource: LightBulb.lightBulbHtmlSource,
+        cssSource: LightBulb.lightBulbCssSource,
     },
 ];
