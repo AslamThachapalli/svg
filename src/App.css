@@ -2,6 +2,10 @@
     max-width: 980px;
     margin: 0 auto;
     padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .svg-card-container {
@@ -33,4 +37,54 @@
 .light-bulb {
     grid-column: 1/2;
     grid-row: 3/4;
+}
+@media screen and (max-width: 768px) {
+    .svg-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .christmas-ornament {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .christmas-tree {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .ginger-bread {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .heart {
+        grid-column: 1/2;
+        grid-row: 3/5;
+    }
+    .arrow {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .wavy-tree {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+
+
+    .text {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .nature {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .wind-mill {
+        grid-column: 2/3;
+        grid-row: 5/7;
+    }
+
+    .light-bulb {
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
 }
