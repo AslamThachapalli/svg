@@ -10,6 +10,7 @@ import * as WindMill from "./WindMill";
 import * as Text from "./Text";
 import * as Nature from "./Nature";
 import * as Star from "./Star";
+import * as Hat from "./Hat";
 
 type SvgList = {
     id: string;
@@ -63,11 +64,11 @@ export const svgList: SvgList[] = [
         cssSource: GingerBread.gingerBreadCssSource,
     },
     {
-        id: "text",
-        name: "SVG Text",
-        svg: Text.Text,
-        htmlSource: Text.textHtmlSource,
-        cssSource: Text.textCssSource,
+        id: "user",
+        name: "User",
+        svg: User.User,
+        htmlSource: User.userHtmlSource,
+        cssSource: User.userCssSource,
     },
     {
         id: "wind-mill",
@@ -84,12 +85,13 @@ export const svgList: SvgList[] = [
         cssSource: LightBulb.lightBulbCssSource,
     },
     {
-        id: "user",
-        name: "User",
-        svg: User.User,
-        htmlSource: User.userHtmlSource,
-        cssSource: User.userCssSource,
+        id: "hat",
+        name: "Hat",
+        svg: Hat.Hat,
+        htmlSource: Hat.hatHtmlSource,
+        cssSource: Hat.hatCssSource,
     },
+
     {
         id: "nature",
         name: "Nature",

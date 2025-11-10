@@ -3,6 +3,7 @@ import { SvgCard } from "./components/SvgCard/SvgCard";
 import { DetailModal } from "./components/DetailModal";
 import { useState } from "react";
 import { svgList } from "./svgs/svgList";
+import {Text} from "./svgs/Text";
 
 function App() {
     const [svgDetail, setSvgDetail] = useState<{
@@ -22,8 +23,10 @@ function App() {
     }
 
     return (
-        <div>
-            <h1>SVGs</h1>
+        <div className="app-container">
+            <div className="text-container">
+                <Text />
+            </div>
             <div className="svg-card-container">
                 {svgList.map((item, index) => (
                     <div key={item.id} className={item.id}>

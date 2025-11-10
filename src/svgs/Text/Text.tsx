@@ -1,9 +1,9 @@
 export function Text() {
     return (
-        <svg width="200" height="200" viewBox="-100 -100 200 200">
+        <svg width="200" height="100" viewBox="-100 -50 200 100" >
             <path
                 id="curve"
-                d="M -80, 40 Q 0, 20 80, 40"
+                d="M -80, 29 Q 0, 10 80, 29"
                 fill="transparent"
                 stroke="red"
                 stroke-width="2"
